@@ -1,0 +1,153 @@
+
+.hero{
+    background-image: url(/html/project/MyPro/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+    
+}
+.hero{
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-left: 500px;
+    font-style:var("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    font-size: xx-large;
+    
+    
+}
+.hello{
+    font-size:x-large;
+}
+.black{
+    background-color: #000;
+    text-align: center;
+   
+    
+
+}
+.black h3{
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+
+}
+.black h3 span{
+    font-size: 96px;
+    color: white;
+}
+.grid-item div{
+    display: grid;
+    max-width: 340px;
+    height: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    border: 2px solid black;
+    border-radius: 15px 50px; 
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px gray;
+    gap: auto;
+    overflow: hidden;
+}
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid-item div img{
+    display: 50%;
+}
+.grid-item div p{
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-top: 0px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: 100px;
+   
+}
+.bottom div{
+   
+ 
+    height: 300px;
+    width: 500px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    box-shadow: 12px 12px 2px 1px gray;
+    border: 2px solid black;
+    border-radius: 15px 50px; 
+    background-color: black;
+    background-size: cover;
+    border: 2px solid white;
+    
+}
+.bottom-div1 section {
+   padding-top: 50px;
+   text-align: center;
+ 
+   
+}
+.bottom-div2 section{
+    padding-top: 50px;
+     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+/* ------------------Hover------------------ */
+.hero h2:hover{
+    text-shadow: 2px 2px 8px skyblue;
+    
+}
+.hero h1:hover{
+    text-shadow: 2px 2px 8px skyblue;
+}
+.black h3:hover{
+    text-shadow: 2px 2px 8px skyblue;
+}
+.grid-item div:hover{
+    box-shadow: 2px 2px 8px skyblue;
+   
+}
+.bottom div:hover{
+    box-shadow: 2px 2px 8px skyblue;
+    font-size: x-large;
+}
+/* ---------------media-------------------- */
+@media (max-width: 786px){
+ .hero{
+    min-height: 50vh;
+ }
+ .black h3{
+    font-size: 24px;
+ }
+ .bottom{
+    flex-direction: column;
+ }
+ .grid-item{
+    flex-direction: column;
+    gap: 1.25rem;
+ }
+ .hero{
+    background-size: 600px;
+    font-size: small;
+    text-align: center;
+    padding-right: 300px;
+
+ }
+}
