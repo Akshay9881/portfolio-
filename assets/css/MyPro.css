@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .hero{
-    background-image: url(/html/project/MyPro/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-image: url(/assets/images/hero.jpg);
     background-size: cover;
     background-attachment:scroll;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     margin-top: 15px;
     padding-top: 50px;
     padding-left: 500px;
-    font-style:var("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    font-family: 'Lato', sans-serif;
     font-size: xx-large;
     
     
