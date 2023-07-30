@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .hero{
-    background-image: url(/assets/images/hero.jpg);
+    background-image: url('./assets/images/hero.jpg');
     background-size: cover;
     background-attachment:scroll;
     background-repeat: no-repeat;
